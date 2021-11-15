@@ -1,4 +1,12 @@
 <html>
+  <head>
+    <script type="text/javascript">
+      const redirectIntent = function() {
+        console.log('REDIRECT INTENT');
+        window.location.replace('intent://Prova');
+      }
+    </script>
+  </head>
 <body>
 
   Hello
@@ -7,6 +15,11 @@
   <br/>
   
   <a href="intent://Prova">INTENT</a>
+  
+  <br/>
+  <br/>
+    
+  <a href="javascript:redirectIntent();">INTENT JAVASCRIPT</a>
   
   <br/>
   <br/>
