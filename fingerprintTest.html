@@ -17,9 +17,11 @@
         // This is the visitor identifier:
         const visitorId = result.visitorId
         console.log(visitorId)
+        document.getElementById('fingerprintIdDiv').append(visitorId);
       })
   </script>
 
+<div>Il tuo fingerprint id è: <div id="fingerprintIdDiv"></div></div>
 
 
 </body>
